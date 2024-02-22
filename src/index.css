@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Bagel";
+  src: url('/public/font/BagelFatOne-Regular.ttf');
+}
+@font-face {
+  font-family: "Rubi";
+  src: url('/public/font/RubikBubbles-Regular.ttf');
+}
+@font-face {
+  font-family: "GaeguR";
+  src: url('/public/font/Gaegu-Regular.ttf');
+}
+@font-face {
+  font-family: "NanumGothicR";
+  src: url('/public/font/NanumGothic-Regular.ttf');
+}
