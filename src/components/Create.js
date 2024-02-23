@@ -24,7 +24,7 @@ const Btn = styled.button`
     left: 92%;
     transform: translate(-50%, -50%);
     z-index: 5;
-
+    transition: 0.125s all ease-in; // +모양이 움직이게 액션을 줌
     &:hover{
         background-color: #c1ddf5;
     }
@@ -72,6 +72,10 @@ const Input = styled.input`
     outline: none;
 
     padding: 10px 40px 10px 40px;
+
+    display: block;
+    transition-property: all;
+    transition-duration: 1s;
 
     font-size: 20px;
     color: #325a94;
